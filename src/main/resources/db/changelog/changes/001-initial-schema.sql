@@ -1,4 +1,4 @@
-CREATE TABLE company
+CREATE TABLE user_card
 (
     id      BIGINT NOT NULL,
     user_id BIGINT NOT NULL,

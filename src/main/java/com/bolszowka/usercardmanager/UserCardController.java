@@ -8,12 +8,12 @@ import java.util.List;
 
 @RestController
 @RequiredArgsConstructor
-public class UserCardManagerController {
+public class UserCardController {
 
-    private final UserCardManagerService userCardManagerService;
+    private final UserCardService userCardService;
 
     @PostMapping("/card")
     public void addCard(List<AddCardDto> cards) {
-        userCardManagerService.addCards(cards);
+        userCardService.addCards(cards);
     }
 }

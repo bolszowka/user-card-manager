@@ -1,6 +1,6 @@
 spring:
   datasource:
-    url: jdbc:postgresql://localhost:5440/trading-card?currentSchema=card-catalog
+    url: jdbc:postgresql://localhost:5440/trading-card?currentSchema=user-card-manager
     username: postgres
     password: postgres
   liquibase:
